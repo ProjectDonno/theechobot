@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 
 # API-TOKEN
-bot = telebot.TeleBot('1546806897:AAECi5fn1xwpKrZAtczaJk8U6jJ_lx8b0fI')
+bot = telebot.TeleBot('token')
 
 def create_db():
     db_name = 'ProfileUser'
